@@ -21,10 +21,11 @@
         <b-card-body>
           <b-row>
             <b-col :lg="6">
-              <div class="file">
-                <b-img class="img-file" :src="require('@/assets/images/accordion/file.svg')" />
-              </div>
+              <b-img class="mr-3" :src="require('@/assets/images/accordion/file.svg')" />
               <span>Hamleys</span>
+              <p class="date">20 May 2020</p>
+              <b-img class="mr-3" :src="require('@/assets/images/accordion/finance.svg')" />
+              <span class="small-text">Refund on Debit Card</span>
             </b-col>
             <b-col :lg="6">
               <div class="green bold-text">+ S$ 150<b-icon-chevron-right /></div>
@@ -34,8 +35,11 @@
         <b-card-body>
           <b-row>
             <b-col :lg="6">
-              <b-img :src="require('@/assets/images/accordion/file.svg')" />
+              <b-img class="mr-3" :src="require('@/assets/images/accordion/flights.svg')" />
               <span>Hamleys</span>
+              <p class="date">20 May 2020</p>
+              <b-img class="mr-3 green" :src="require('@/assets/images/accordion/finance.svg')" />
+              <span class="small-text">Charged to Debit Card</span>
             </b-col>
             <b-col :lg="6">
               <div>+ S$ 150</div>
@@ -45,8 +49,11 @@
         <b-card-body>
           <b-row>
             <b-col :lg="6">
-              <b-img :src="require('@/assets/images/accordion/file.svg')" />
+              <b-img class="mr-3" :src="require('@/assets/images/accordion/megaphone.svg')" />
               <span>Hamleys</span>
+              <p class="date">20 May 2020</p>
+              <b-img class="mr-3 green" :src="require('@/assets/images/accordion/finance.svg')" />
+              <span class="small-text">Charged to Debit Card</span>
             </b-col>
             <b-col :lg="6">
               <div>+ S$ 150</div>
@@ -56,8 +63,11 @@
         <b-card-body>
           <b-row>
             <b-col :lg="6">
-              <b-img :src="require('@/assets/images/accordion/file.svg')" />
+              <b-img class="mr-3" :src="require('@/assets/images/accordion/file.svg')" />
               <span>Hamleys</span>
+              <p class="date">20 May 2020</p>
+              <b-img class="mr-3 green" :src="require('@/assets/images/accordion/finance.svg')" />
+              <span class="small-text">Charged to Debit Card</span>
             </b-col>
             <b-col :lg="6">
               <div>+ S$ 150</div>
@@ -114,6 +124,14 @@ import { BIconArrowDownCircleFill, BIconChevronRight } from 'bootstrap-vue'
 }
 .bold-text {
   font-family: bold;
+}
+.small-text {
+  color: #325BAF;
+  font-size: 12px;
+}
+.date {
+  font-size: 13px;
+  color: #AAAAAA;
 }
 </style>
 

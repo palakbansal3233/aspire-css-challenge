@@ -101,7 +101,6 @@ export default {
   background-color: $primary !important;
 }
 p {
-  color: white;
-  opacity: 30%;
+  color: grey;
 }
 </style>
